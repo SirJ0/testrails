@@ -1,0 +1,782 @@
+
+<!DOCTYPE html/css>
+<html>
+
+
+<title> Hypertech </title>
+<meta charset= "utf-8">
+<link rel="stylesheet" href="boutiquecqssjs.css" />
+<head>
+<style>
+    body{
+      background-color:#363a3f;
+    }
+    p{
+      color: black;
+      font-size: 30px;
+    }
+  </style>
+  
+ 
+  <div id="cadrefond"></div>
+  
+  <div id="texte_centrer"><b>Boutique</b></div>
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  
+  <div id="header">
+  <div id="hypertechlogo"><img src="D:\data_eleve\IMAGE PROJET\hypertechlogo.jfif"> 
+  </div>
+  <div id="wrap">
+<ul class="navbar">
+  <li>
+    <a href="#">Accueil</a>
+  </li>
+  <li>
+
+   <a href="#">Articles</a>
+    <ul>
+	
+      <li><a href="#">Composants PC</a></li>
+	  <li><a href="#">PC</a></li>
+      <li><a href="#">Consoles</a></li>
+
+    </ul>
+	
+  </li>
+  <li>
+    <a href="#">Contact</a>
+    <ul>
+      
+    
+    </ul>
+  </li>
+ 
+
+ <div class="contenant">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+  </div>
+
+ <div id="prebuilt"><img src="https://drive.google.com/uc?id=1zVKWUVWTxBzNO9Je4SBcS3FPZPKl78LG"><!--prebuilt_LDLC.png-->
+ 
+ <div id="PCATOMIZER"><FONT color=c2bfbf><b>PC ATOMIZER</b></FONT></div>
+ 
+ <div id="config">Intel Core i9-12900K (3.2 GHz / 5.2 GHz) 32 Go SSD 960 Go + HDD 2 To NVIDIA GeForce RTX 3070 Ti 8 Go Wi-Fi 6 AX (sans OS - monté)</div>
+ 
+ 
+<div id="description"><br><p><FONT SIZE="5px">Vous rêviez d'une machine puissante qui vous fera prendre l'ascendant sur votre adversaire ?
+Hypertech l'a fait et vous propose le PC ATOMIZER !
+Cette configuration haut de gamme vous fera évoluer 
+et découvrir la puissance des derniers composants pour toujours être à la pointe de la technologie.</FONT>
+</p></br>
+
+<div id="sysex"><FONT COLOR ="#969696">Système d'exploitation :</FONT><b>Windows 10 Famille 64 bits</b>
+</div>
+
+
+
+
+<div id="cadresysex"></div>
+
+<div id="textecadre"><FONT SIZE="2.5px" COLOR="white"><b>Sans OS</b></FONT><span title="Ce prix peu varier en fonction des prix actuels des composants">
+<FONT COLOR="#05abe2">&nbsp3&nbsp;299<img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></span></FONT></div>
+
+<div id="prix"><b>&nbsp3&nbsp;449</b><span title="La Hypertech money est une monnaie créer spécialement pour le site">
+<img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></span>
+</div><!--Hlogo.png-->
+
+<div id="dispoweb"><table><tr><td BGCOLOR="#646464"><FONT COLOR="#FFFFFF">&nbsp;&nbsp;DISPO&nbsp;WEB&nbsp;&nbsp;</FONT></td></tr>
+<tr><td height=90><b><FONT COLOR="#32B414">&nbsp;&nbsp;EN STOCK</FONT></b></tr></td></table></head>
+<body>
+
+<div id="popupImg"><span title="Pub"><img src="https://drive.google.com/uc?id=1sKojuppJbWWIGTA36nFRB4WN-9r_h3ue"></span><!--pub-->
+  <button id="btn1" onclick="closeImg()">x</button>
+  
+  
+  <script>
+  function closeImg() {
+    document.getElementById("popupImg").style.display = "none";
+  }
+  </script>
+
+</div>
+
+
+<div id="cadreinfolog"><img src="https://drive.google.com/uc?id=1vVD4NtyWpCjDSSvtFY_o2VBGVhiCNbJ1"><!--img infolog-->
+</div>
+<div id="demconf"><FONT COLOR="#ff8200"><span title="Cette configuration ne vous convient pas? Voici le moyen de créer la votre">Démarrer ma config</span></FONT></div>
+
+  <h2></h2>
+ 
+ 
+
+      
+
+
+
+
+  
+  <div class="open-btn">
+    <button class="open-button" onclick="openForm()">
+    <strong><img src="https://drive.google.com/uc?id=1MtUw0tZN2aRxZ5oDuckhbg0zlNoEJbOg"><IMG color="grey"><FONT color=cecece>PROCESSEUR</FONT><!--processeur-->
+      </strong></button>
+  </div>
+
+
+  <div class="login-popup">
+    <div class="form-popup" id="popupForm">
+      <form  action="/action_page.php" class="form-container">
+        
+       
+        <button type="button" class="btn cancel" onclick="closeForm()">X</button>
+
+        <img src="https://drive.google.com/uc?id=1MtUw0tZN2aRxZ5oDuckhbg0zlNoEJbOg"><b>PROCESSEUR</b></img>
+
+        <div  id="designation"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;DÉSIGNATION</b></FONT>
+
+
+         
+          
+          <input id="searchbar" onkeyup="search_processeur()" type="text"
+          name="search" placeholder="Rechercher...">
+        
+
+                         <!--Nom processeurs-->
+      <ol type="none" id="list">
+        <li class="nomprocesseur"><br<br><br><br><br><br>AMD Ryzen 5 5600X Wraith Stealth (3.7 GHz / 4.6 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br>AMD Ryzen 7 5800X (3.8 GHz / 4.7 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br>Intel Core i5-12600K (3.7 GHz / 4.9 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br><br><br>AMD Ryzen 9 5900X (3.7 GHz / 4.8 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br><br><br><br><br>AMD Ryzen 5 5600G Wraith Stealth (3.9 GHz / 4.4 GHz)</li><!--<br><br>-->
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>AMD Ryzen 5 3600 (3.6 GHz / 4.2 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Intel Core i5-11400F (2.6 GHz / 4.4 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>AMD Ryzen 5 PRO 4650G (3.7 GHz / 4.2 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Intel Core i7-12700KF (3.6 GHz / 5.0 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Intel Core i9-12900K (3.2 GHz / 5.2 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Intel Core i5-10400F (2.9 GHz / 4.3 GHz)</li>
+        <li class="nomprocesseur"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Intel Core i7-12700K (3.6 GHz / 5.0 GHz)</li>
+      </ol>
+
+
+
+
+
+
+
+
+
+                            <!--boxcheck-->
+      <input type="checkbox" id="boxcheck" name="boxcheck" value="1" checked>
+      <input type="checkbox" id="boxcheckdeux" name="boxcheckdeux" value="1" checked>
+      <input type="checkbox" id="boxchecktrois" name="boxchecktrois" value="1" checked>
+      <input type="checkbox" id="boxcheckquatre" name="boxcheckquatre" value="1" checked>
+      <input type="checkbox" id="boxcheckcinq" name="boxcheckcinq" value="1" checked>
+      <input type="checkbox" id="boxchecksix" name="boxchecksix" value="1" checked>
+      <input type="checkbox" id="boxchecksept" name="boxchecksept" value="1" checked>
+      <input type="checkbox" id="boxcheckhuit" name="boxcheckhuit" value="1" checked>
+      <input type="checkbox" id="boxcheckneuf" name="boxcheckneuf" value="1" checked>
+      <input type="checkbox" id="boxcheckdix" name="boxcheckdix" value="1" checked>
+      <input type="checkbox" id="boxcheckonze" name="boxcheckonze" value="1" checked>
+      <input type="checkbox" id="boxcheckdouze" name="boxcheckdouze" value="1" checked>
+
+
+
+
+  
+     
+
+
+                              <!--Etoiles-->
+      <div id="cinqetoiles"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="quatreetoilesdemi"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="cinqetoilesdeux"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="cinqetoilestrois"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="cinqetoilesquatre"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="quatreetoilesdemideux"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="cinqetoilescinq"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="cinqetoilessix"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="quatreetoilesdemitrois"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="cinqetoilessept"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="cinqetoileshuit"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="quatreetoilesdemiquatre"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+
+      
+
+
+      
+                            <!--Prix-->
+
+      <div id="euro"><b>299</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div><!--5 etoiles-->
+      <div id="eurodeux"><b>439</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurotrois"><b>374</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="euroquatre"><b>574</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurocinq"><b>267</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurosix"><b>259</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurosept"><b>199</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurohuit"><b>219</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="euroneuf"><b>499</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurodix"><b>749</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="euroonze"><b>165</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurodouze"><b>546</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+
+
+
+
+
+      <div  id="note"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;NOTE</b></FONT></div>
+      <div  id="prixproc"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;PRIX</b></FONT></div>
+      <div id="cinqetoiles"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="euro"><b>299</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div><!--5 etoiles-->
+    
+      <script>
+function search_processeur() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('nomprocesseur');
+    
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+
+
+
+
+      </script>
+
+
+
+
+      
+    
+  </div>
+
+  <script>
+    function openForm() {
+      document.getElementById("popupForm").style.display = "block";
+    }
+  
+    function closeForm() {
+      document.getElementById("popupForm").style.display = "none";
+    }
+    
+  </script></div>
+</form>
+
+
+   <!--VENTIRAD-->
+
+   <div class="open-btndeux">
+    <button class="open-buttondeux" onclick="openFormdeux()">
+    <strong><img src="https://drive.google.com/uc?id=1C05CuEx4Cw8ft0FRWt_9FUZs17zs7D96"><IMG color="grey"><FONT color=cecece>VENTIRAD</FONT><!--processeur-->
+      </strong></button>
+  </div>
+  
+  
+  <div class="login-popupdeux">
+    <div class="form-popupdeux" id="popupFormdeux">
+      <form  action="/action_pagedeux.php" class="form-containerdeux">
+        
+       
+        <button type="button" class="btn canceldeux" onclick="closeFormdeux()">X</button>
+  
+        <img src="https://drive.google.com/uc?id=1C05CuEx4Cw8ft0FRWt_9FUZs17zs7D96"><b>VENTIRAD</b></img>
+  
+        <div  id="designationdeux"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;DÉSIGNATION</b></FONT>
+  
+  
+         
+          
+          <input id="searchbardeux" onkeyup="search_ventirad()" type="text"
+          name="search" placeholder="Rechercher...">
+        
+  
+                         <!--Nom ventirad-->
+      <ol type="none" id="listdeux">
+        <li class="nomventirad"><br<br><br><br><br><br>be quiet! Pure Rock Slim 2</li>
+        <li class="nomventirad"><br><br><br><br><br><br>be quiet! Pure Rock 2 Black</li>
+        <li class="nomventirad"><br><br><br><br><br><br><br><br>be quiet! Dark Rock 4</li>
+        <li class="nomventirad"><br><br><br><br><br><br><br><br><br><br>MSI MAG CORELIQUID C240</li>
+        <li class="nomventirad"><br><br><br><br><br><br><br><br><br><br><br><br>be quiet! Dark Rock PRO 4</li><!--<br><br>-->
+        <li class="nomventirad"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>be quiet! Pure Loop 240 mm</li>
+        <li class="nomventirad"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Noctua NH-U12A Chromax Black</li>
+        <li class="nomventirad"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>MSI MAG CORELIQUID C360</li>
+        <li class="nomventirad"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Noctua NH-U12A + kit de fixation socket Intel LGA 1700</li>
+        <li class="nomventirad"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Enermax ETS-N31</li>
+        <li class="nomventirad"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>NZXT Kraken X53 RGB + kit de fixation socket Intel LGA 1700</li>
+        <li class="nomventirad"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Noctua NH-D15</li>
+      </ol>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                            <!--boxcheck-->
+      <input type="checkbox" id="boxcheck" name="boxcheck" value="1" checked>
+      <input type="checkbox" id="boxcheckdeux" name="boxcheckdeux" value="1" checked>
+      <input type="checkbox" id="boxchecktrois" name="boxchecktrois" value="1" checked>
+      <input type="checkbox" id="boxcheckquatre" name="boxcheckquatre" value="1" checked>
+      <input type="checkbox" id="boxcheckcinq" name="boxcheckcinq" value="1" checked>
+      <input type="checkbox" id="boxchecksix" name="boxchecksix" value="1" checked>
+      <input type="checkbox" id="boxchecksept" name="boxchecksept" value="1" checked>
+      <input type="checkbox" id="boxcheckhuit" name="boxcheckhuit" value="1" checked>
+      <input type="checkbox" id="boxcheckneuf" name="boxcheckneuf" value="1" checked>
+      <input type="checkbox" id="boxcheckdix" name="boxcheckdix" value="1" checked>
+      <input type="checkbox" id="boxcheckonze" name="boxcheckonze" value="1" checked>
+      <input type="checkbox" id="boxcheckdouze" name="boxcheckdouze" value="1" checked>
+  
+  
+  
+  
+  
+     
+  
+  
+                              <!--Etoiles-->
+      <div id="quatreetoilesdemicinq"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="cinqetoilesneuf"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="quatreetoilesdemisix"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="quatreetoilesdemisept"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="quatreetoilesdemihuit"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="quatreetoilesdemineuf"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="quatreetoilesdemidix"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="aucuneetoile"><img src="https://drive.google.com/uc?id=17F6JtrjdDTBZy7dtRll64yjfGyi-7Ppk"></div>
+      <div id="aucuneetoiledeux"><img src="https://drive.google.com/uc?id=17F6JtrjdDTBZy7dtRll64yjfGyi-7Ppk"></div>
+      <div id="quatreetoilesdemionze"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="aucuneetoiletrois"><img src="https://drive.google.com/uc?id=17F6JtrjdDTBZy7dtRll64yjfGyi-7Ppk"></div>
+      <div id="cinqetoilesdix"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+
+
+
+
+
+
+                            <!--Prix-->
+  
+      <div id="euro"><b>29</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div><!--5 etoiles-->
+      <div id="eurodeux"><b>44</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurotrois"><b>72</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="euroquatre"><b>134</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurocinq"><b>89</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurosix"><b>104</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurosept"><b>144</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurohuit"><b>174</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="euroneuf"><b>129</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurodix"><b>21</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="euroonze"><b>189</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurodouze"><b>119</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+  
+  
+  
+  
+  
+      <div  id="note"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;NOTE</b></FONT></div>
+      <div  id="prixproc"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;PRIX</b></FONT></div>
+      
+      
+    
+      <script>
+  function search_ventirad() {
+    let input = document.getElementById('searchbardeux').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('nomventirad');
+    
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+  }
+  
+  
+  
+  
+      </script>
+  
+  </form>
+  
+  
+      
+    
+  </div>
+  <script>
+    function openFormdeux() {
+      document.getElementById("popupFormdeux").style.display = "block";
+    }
+  
+    function closeFormdeux() {
+      document.getElementById("popupFormdeux").style.display = "none";
+    }
+    
+  </script></div>
+
+         
+
+
+   <!--VENTIRAD-->
+
+   <div class="open-btntrois">
+    <button class="open-buttontrois" onclick="openFormtrois()">
+    <strong><img src="https://drive.google.com/uc?id=1Ypq1PkA-ZThh2oXwZwjlylPPUHEblf-a"><IMG color="grey"><FONT color=cecece>CARTE MERE</FONT><!--processeur-->
+      </strong></button>
+  </div>
+  
+  
+  <div class="login-popuptrois">
+    <div class="form-popuptrois" id="popupFormtrois">
+      <form  action="/action_pagetrois.php" class="form-containertrois">
+        
+       
+        <button type="button" class="btn canceltrois" onclick="closeFormtrois()">X</button>
+  
+        <img src="https://drive.google.com/uc?id=1Ypq1PkA-ZThh2oXwZwjlylPPUHEblf-a"><b>CARTE MERE</b></img>
+  
+        <div  id="designationtrois"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;DÉSIGNATION</b></FONT>
+  
+  
+         
+          
+          <input id="searchbartrois" onkeyup="search_cartemere()" type="text"
+          name="search" placeholder="Rechercher...">
+        
+  
+                         <!--Nom ventirad-->
+      <ol type="none" id="listtrois">
+        <li class="nomcartemere"><br<br><br><br><br><br>MSI MPG B550 GAMING PLUS</li>
+        <li class="nomcartemere"><br><br><br><br><br><br>MSI B360M MORTAR</li>
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br>MSI Z490-A PRO</li>
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br><br><br>ASUS TUF GAMING B560-PLUS WIFI</li>
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br><br><br><br><br>ASUS TUF GAMING B550-PLUS WIFI II</li><!--<br><br>-->
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ASUS ROG STRIX Z490-E GAMING</li>
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Gigabyte B550 GAMING X V2</li>
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ASUS TUF GAMING B550-PLUS</li>
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ASUS PRIME H410M-D</li>
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Gigabyte H410M S2H V3</li>
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>MSI Z590-A PRO</li>
+        <li class="nomcartemere"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ASUS ROG STRIX X570-E GAMING WIFI II</li>
+      </ol>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                            <!--boxcheck-->
+      <input type="checkbox" id="boxcheck" name="boxcheck" value="1" checked>
+      <input type="checkbox" id="boxcheckdeux" name="boxcheckdeux" value="1" checked>
+      <input type="checkbox" id="boxchecktrois" name="boxchecktrois" value="1" checked>
+      <input type="checkbox" id="boxcheckquatre" name="boxcheckquatre" value="1" checked>
+      <input type="checkbox" id="boxcheckcinq" name="boxcheckcinq" value="1" checked>
+      <input type="checkbox" id="boxchecksix" name="boxchecksix" value="1" checked>
+      <input type="checkbox" id="boxchecksept" name="boxchecksept" value="1" checked>
+      <input type="checkbox" id="boxcheckhuit" name="boxcheckhuit" value="1" checked>
+      <input type="checkbox" id="boxcheckneuf" name="boxcheckneuf" value="1" checked>
+      <input type="checkbox" id="boxcheckdix" name="boxcheckdix" value="1" checked>
+      <input type="checkbox" id="boxcheckonze" name="boxcheckonze" value="1" checked>
+      <input type="checkbox" id="boxcheckdouze" name="boxcheckdouze" value="1" checked>
+  
+  
+  
+  
+  
+     
+  
+  
+                              <!--Etoiles-->
+      <div id="quatreetoilesdemicinq"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="cinqetoilesneuf"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+      <div id="quatreetoilesdemisix"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="quatreetoilesdemisept"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="quatreetoilesdemihuit"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="quatreetoilesdemineuf"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="quatreetoilesdemidix"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="aucuneetoile"><img src="https://drive.google.com/uc?id=17F6JtrjdDTBZy7dtRll64yjfGyi-7Ppk"></div>
+      <div id="aucuneetoiledeux"><img src="https://drive.google.com/uc?id=17F6JtrjdDTBZy7dtRll64yjfGyi-7Ppk"></div>
+      <div id="quatreetoilesdemionze"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+      <div id="aucuneetoiletrois"><img src="https://drive.google.com/uc?id=17F6JtrjdDTBZy7dtRll64yjfGyi-7Ppk"></div>
+      <div id="cinqetoilesdix"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>                      
+
+
+
+
+
+
+                            <!--Prix-->
+  
+      <div id="euro"><b>139</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div><!--5 etoiles-->
+      <div id="eurodeux"><b>69</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurotrois"><b>199</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="euroquatre"><b>169</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurocinq"><b>169</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurosix"><b>299</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurosept"><b>127</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurohuit"><b>154</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="euroneuf"><b>89</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurodix"><b>79</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="euroonze"><b>179</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+      <div id="eurodouze"><b>359</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+  
+  
+  
+  
+  
+      <div  id="note"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;NOTE</b></FONT></div>
+      <div  id="prixproc"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;PRIX</b></FONT></div>
+      
+      
+    
+      <script>
+  function search_cartemere() {
+    let input = document.getElementById('searchbartrois').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('nomcartemere');
+    
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+  }
+  
+  
+  
+  
+      </script>
+  
+  </form>
+  
+  
+      
+    
+  </div>
+  <script>
+    function openFormtrois() {
+      document.getElementById("popupFormtrois").style.display = "block";
+    }
+  
+    function closeFormtrois() {
+      document.getElementById("popupFormtrois").style.display = "none";
+    }
+    
+  </script></div>
+
+
+
+
+
+<div class="open-btnquatre">
+  <button class="open-buttonquatre" onclick="openFormquatre()">
+  <strong><img src="https://drive.google.com/uc?id=1iU5dOFyYmLxVCxJdA39Vmqg7Cz4qNAS8"><IMG color="grey"><FONT color=cecece>MÉMOIRE VIVE</FONT><!--processeur-->
+    </strong></button>
+</div>
+
+
+<div class="login-popupquatre">
+  <div class="form-popupquatre" id="popupFormquatre">
+    <form  action="/action_pagequatre.php" class="form-containerquatre">
+      
+     
+      <button type="button" class="btn cancelquatre" onclick="closeFormquatre()">X</button>
+
+      <img src="https://drive.google.com/uc?id=1iU5dOFyYmLxVCxJdA39Vmqg7Cz4qNAS8"><b>MÉMOIRE VIVE</b></img>
+
+      <div  id="designationquatre"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;DÉSIGNATION</b></FONT>
+
+
+       
+        
+        <input id="searchbarquatre" onkeyup="search_nommemoirevive()" type="text"
+        name="search" placeholder="Rechercher...">
+      
+
+                       <!--Nom ventirad-->
+    <ol type="none" id="listquatre">
+      <li class="nommemoirevive"><br<br><br><br><br><br><br>Corsair Vengeance LPX Series Low Profile 32 Go DDR4</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br>Kingston FURY Beast 16 Go DDR4</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br>Textorm 32 Go DR4</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br><br><br>Corsair Vengeance LPX Series Low Profile 16 Go DDR4</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br><br><br><br><br>Corsair Vengeance LPX Series Low Profile 16 Go DDR4</li><!--<br><br>-->
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Textorm 16 Go DDR4 2666 MHz CL19</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Corsair Vengeance RGB RS 16 Go DDR4 3200 MHz CL16</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>G.Skill Aegis 16 Go DDR4 3200 MHz CL16</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Ballistix White 8 Go DDR4 3200 MHz CL16</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Corsair Vengeance RGB RS 32 Go DDR4 3200 MHz CL16</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>G.Skill Value 8 Go DDR4 2666 MHz CL19</li>
+      <li class="nommemoirevive"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Textorm 16 Go DDR4 3200 MHz CL16</li>
+    </ol>
+
+
+
+
+
+
+
+
+
+                          <!--boxcheck-->
+    <input type="checkbox" id="boxcheck" name="boxcheck" value="1" checked>
+    <input type="checkbox" id="boxcheckdeux" name="boxcheckdeux" value="1" checked>
+    <input type="checkbox" id="boxchecktrois" name="boxchecktrois" value="1" checked>
+    <input type="checkbox" id="boxcheckquatre" name="boxcheckquatre" value="1" checked>
+    <input type="checkbox" id="boxcheckcinq" name="boxcheckcinq" value="1" checked>
+    <input type="checkbox" id="boxchecksix" name="boxchecksix" value="1" checked>
+    <input type="checkbox" id="boxchecksept" name="boxchecksept" value="1" checked>
+    <input type="checkbox" id="boxcheckhuit" name="boxcheckhuit" value="1" checked>
+    <input type="checkbox" id="boxcheckneuf" name="boxcheckneuf" value="1" checked>
+    <input type="checkbox" id="boxcheckdix" name="boxcheckdix" value="1" checked>
+    <input type="checkbox" id="boxcheckonze" name="boxcheckonze" value="1" checked>
+    <input type="checkbox" id="boxcheckdouze" name="boxcheckdouze" value="1" checked>
+
+
+
+
+
+   
+
+
+                            <!--Etoiles-->
+    <div id="quatreetoilesdemicinq"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+    <div id="cinqetoilesneuf"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>
+    <div id="quatreetoilesdemisix"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+    <div id="quatreetoilesdemisept"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+    <div id="quatreetoilesdemihuit"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+    <div id="quatreetoilesdemineuf"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+    <div id="quatreetoilesdemidix"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+    <div id="aucuneetoile"><img src="https://drive.google.com/uc?id=17F6JtrjdDTBZy7dtRll64yjfGyi-7Ppk"></div>
+    <div id="aucuneetoiledeux"><img src="https://drive.google.com/uc?id=17F6JtrjdDTBZy7dtRll64yjfGyi-7Ppk"></div>
+    <div id="quatreetoilesdemionze"><img src="https://drive.google.com/uc?id=1b9tWdM-Gw2rh4sjkrlqX1RxOkfM3zxQr"></div>
+    <div id="aucuneetoiletrois"><img src="https://drive.google.com/uc?id=17F6JtrjdDTBZy7dtRll64yjfGyi-7Ppk"></div>
+    <div id="cinqetoilesdix"><img src="https://drive.google.com/uc?id=1ulPsPOw-fflUPvmzFyHIavjiLkMYlGcZ"></div>                      
+
+
+
+
+
+
+                          <!--Prix-->
+
+    <div id="euro"><b>189</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div><!--5 etoiles-->
+    <div id="eurodeux"><b>94</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="eurotrois"><b>177</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="euroquatre"><b>106</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="eurocinq"><b>101</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="eurosix"><b>79</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="eurosept"><b>115</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="eurohuit"><b>94</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="euroneuf"><b>49</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="eurodix"><b>199</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="euroonze"><b>43</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+    <div id="eurodouze"><b>359</b><img src="https://drive.google.com/uc?id=1XUyAZrFmOGNLQrisuKogS0vjkbJ-_UxK"></div>
+
+
+
+
+
+    <div  id="note"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;NOTE</b></FONT></div>
+    <div  id="prixproc"><FONT COLOR="#FFF"><b>&nbsp;&nbsp;PRIX</b></FONT></div>
+    
+    
+  
+    <script>
+function search_nommemoirevive() {
+  let input = document.getElementById('searchbarquatre').value
+  input=input.toLowerCase();
+  let x = document.getElementsByClassName('nommemoirevive');
+  
+  for (i = 0; i < x.length; i++) { 
+      if (!x[i].innerHTML.toLowerCase().includes(input)) {
+          x[i].style.display="none";
+      }
+      else {
+          x[i].style.display="list-item";                 
+      }
+  }
+}
+
+
+
+
+    </script>
+
+</form>
+
+
+    
+  
+</div>
+<script>
+  function openFormquatre() {
+    document.getElementById("popupFormquatre").style.display = "block";
+  }
+
+  function closeFormquatre() {
+    document.getElementById("popupFormquatre").style.display = "none";
+  }
+  
+</script></div>
+
+
+
+
+
+
+
+
+
+
+
+<ul class="quantite">
+
+ <li>
+
+   <a href="#"><color ="black">1</color></a>
+    <ul>
+
+      <li><a href="#">2</a></li>
+	  <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+
+    </ul>
+	
+  </li>
+  
+
+<div id="quantitétxt">Quantité
+
+  
+</div>
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+</body>
+</html>
+ 
